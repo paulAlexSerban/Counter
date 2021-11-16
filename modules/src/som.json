@@ -1,0 +1,31 @@
+{
+  "content": {
+    "dist": {
+      "description": "ready to deliver frontend files"
+    },
+    "frontend": {
+      "description": "frontend source files and build configuration",
+      "content": {
+        "common": {
+          "scripts": {
+            "constants": "constant values used through the project",
+            "functions": "pure functions used to simplify or consolidate the code"
+          },
+          "styles": {
+            "abstracts": {
+              "description": "this subdirectory contains no actual styles, but rather just functions and mechanisms that help to define other styles (essentially your “helpers” directory)."
+            },
+            "base": {
+              "description": "this is the boilerplate styles used globally across the application. In this directory we would include our default CSS resets and typography styles."
+            }
+          }
+        },
+        "components": {
+          "description": "components directory following the Atomic Design system",
+          "content": ["atoms", "molecules", "organism", "templates", "pages"]
+        },
+        "frontendBuild": "this directory contains the frontend compilers configuration files such as Webpack or whatever else is needed"
+      }
+    }
+  }
+}
