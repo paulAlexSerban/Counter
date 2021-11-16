@@ -1,3 +1,5 @@
+import { stopBubbling } from '../../../common/scripts/functions/stopBubbling';
+
 export default class Counter {
   constructor(molecule, pageParams) {
     this.moleculeParams = {
@@ -15,7 +17,8 @@ export default class Counter {
   }
 
   setupEventListeners() {
-    this.counterButton.addEventListener('click', () => {
+    this.counterButton.addEventListener('click', (event) => {
+      stopBubbling(event);
       this.bumpCounter();
     });
   }
