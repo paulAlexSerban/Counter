@@ -1,0 +1,11 @@
+@import "../../../common/styles/base/all.scss";
+
+@import "../../templates/generic/generic.template.scss";
+
+$page: "counter";
+
+.#{$page} {
+  &__base {
+    background-color: transparent;
+  }
+}

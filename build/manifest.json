@@ -1,0 +1,5 @@
+{
+  "counter.css": "styles/counter.style.css",
+  "counter.js": "scripts/counter.script.js",
+  "counter.html": "counter.html"
+}

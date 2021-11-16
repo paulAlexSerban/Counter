@@ -13,6 +13,12 @@ h2 {
   line-height: 2.8rem;
 }
 
-p, span, a, label {
+p, span, a, label, output {
   font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+button {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }

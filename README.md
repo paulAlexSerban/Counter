@@ -13,7 +13,7 @@ Understanding the basic ideas of a language/toolkit.
 
 ## Commands
 
-`$ npm run build` inside `./src` to compile `.scss` and `.js` files
+`$ npm run start` inside `./src` to compile `.scss` and `.js` files
 `$ npm run dev-watch` inside `./src/frontend` to run the FE watchers and hot-deploy compilers
 `$ npm run dist-watch` inside `./src/frontend` to run the distribution files watcher - this will get the FE file from `./dist` to `./build`
 
