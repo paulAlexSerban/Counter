@@ -1,0 +1,8 @@
+$z-i:
+  base;
+
+@function z-index($element, $list: $z-i) {
+  $index: index($list, $element);
+
+  @return $index;
+}
